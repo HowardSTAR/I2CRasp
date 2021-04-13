@@ -7,7 +7,7 @@ import com.pi4j.io.i2c.I2CFactory;
 import com.pi4j.platform.Platform;
 import com.pi4j.platform.PlatformManager;
 
-public class RaspI2C {
+public class RaspI2CRead {
     private static final int DS3231_ADDR = 0x68;
 
     private static final int DS3231_TIME_SECONDS_ADDR = 0x00;
